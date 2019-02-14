@@ -7,6 +7,7 @@ public class LevelDeath : MonoBehaviour
 {
     public GameObject youFell;
     public GameObject LevelAudio;
+    public GameObject fadeOut;
 
     void OnTriggerEnter()
     {
@@ -16,9 +17,12 @@ public class LevelDeath : MonoBehaviour
 
     IEnumerator YouFellOff()
     {
+        
         youFell.SetActive(true);
+        yield return new WaitForSeconds(2);
         LevelAudio.SetActive(false);
-        yield return new WaitForSeconds(3);
+        fadeOut.SetActive(true);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(0);
     }
 

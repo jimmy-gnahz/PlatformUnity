@@ -7,6 +7,13 @@ public class MainMenuFunction : MonoBehaviour
 {
 
     public AudioSource buttonPress;
+    public GameObject bestScore;
+
+    private void Start()
+    {
+        //bestScore = PlayerPrefs.GetInt("");
+
+    }
 
     public void PlayGame()
     {

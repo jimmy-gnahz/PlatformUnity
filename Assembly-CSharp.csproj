@@ -66,9 +66,14 @@
     <Compile Include="Assets\Scripts\GlobalScore.cs" />
     <Compile Include="Assets\Scripts\GlobalTimer.cs" />
     <Compile Include="Assets\Scripts\LevelDeath.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Level001.cs" />
+    <Compile Include="Assets\Scripts\MainMenuFunction.cs" />
+    <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\PlatformGripper.cs" />
     <Compile Include="Assets\Scripts\RedirectToLevel.cs" />
     <Compile Include="Assets\Scripts\RotateSky.cs" />
+    <Compile Include="Assets\Scripts\ScrollCredits.cs" />
+    <Compile Include="Assets\Scripts\SplashToMenu.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />

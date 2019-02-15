@@ -23,7 +23,7 @@ public class LevelDeath : MonoBehaviour
         LevelAudio.SetActive(false);
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
 
